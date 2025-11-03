@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoIerd from "@/assets/logo-ierd.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,6 +25,11 @@ const Navbar = () => {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src={logoIerd} 
+              alt="Logo IERD" 
+              className="h-14 w-auto"
+            />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-primary">Instituto Emanuel Rei Davi</span>
               <span className="text-xs text-muted-foreground">IERD</span>
