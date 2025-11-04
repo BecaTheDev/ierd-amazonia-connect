@@ -43,7 +43,7 @@ const Home = () => {
         />
         <div className="relative z-20 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 max-w-4xl mx-auto">
-            Pequenos gestos que mudam grandes histórias
+            Pequenos <span className="text-primary">gestos</span> que mudam grandes <span className="text-secondary">histórias</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Iluminando vidas com educação e solidariedade a serviço da transformação social.

@@ -93,31 +93,27 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6">Áreas de Atuação</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <h3 className="font-bold text-lg mb-3 text-primary">Educação e Capacitação</h3>
+                  <h3 className="font-bold text-lg mb-3 text-primary">Educação e Cidadania</h3>
                   <p className="text-muted-foreground">
-                    Cursos profissionalizantes e educacionais nas diversas modalidades, preparando pessoas 
-                    para o mercado de trabalho e fortalecendo suas competências.
+                    Promovendo palestras e atividades sobre direitos, cidadania e inclusão, fortalecendo o conhecimento e a participação ativa da comunidade.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-3 text-primary">Geração de Emprego e Renda</h3>
+                  <h3 className="font-bold text-lg mb-3 text-primary">Formação e Empreendedorismo</h3>
                   <p className="text-muted-foreground">
-                    Agricultura, policultura, piscicultura, horticultura, apicultura e criação de animais, 
-                    promovendo autonomia econômica e sustentabilidade.
+                    Cursos de criatividade e empreendedorismo que estimulam a geração de renda e o desenvolvimento de novas oportunidades.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-bold text-lg mb-3 text-primary">Assistência Social</h3>
                   <p className="text-muted-foreground">
-                    Apoio integral às famílias em situação de vulnerabilidade, garantindo acesso a direitos 
-                    básicos e fortalecimento de vínculos comunitários.
+                    Distribuição de cestas básicas e apoio emergencial a famílias em vulnerabilidade, garantindo dignidade e segurança alimentar para quem mais precisa.
                   </p>
                 </div>
                 <div>
-                  <h3 className="font-bold text-lg mb-3 text-primary">Saúde e Bem-Estar</h3>
+                  <h3 className="font-bold text-lg mb-3 text-primary">Sustentabilidade e Consciência Social</h3>
                   <p className="text-muted-foreground">
-                    Ações voltadas à promoção da saúde e qualidade de vida, com orientações e atividades 
-                    preventivas para toda a comunidade.
+                    Incentivo a ações de responsabilidade social e ambiental, despertando a consciência coletiva e o compromisso com um futuro mais justo e sustentável.
                   </p>
                 </div>
               </div>
