@@ -2,6 +2,7 @@ import { MapPin, Mail, Phone, Clock } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import heroImage from "@/assets/gallery/donations-2.jpg";
 
 const Contact = () => {
   return (
@@ -9,8 +10,14 @@ const Contact = () => {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-muted py-20">
-        <div className="container mx-auto px-4">
+      <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60 z-10" />
+        <img
+          src={heroImage}
+          alt="Doações solidárias do Instituto Emanuel Rei Davi"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="relative z-20 container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Entre em Contato</h1>
             <p className="text-lg text-muted-foreground">
