@@ -1,10 +1,22 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
+import donations1 from "@/assets/gallery/donations-1.jpg";
+import foodDistribution from "@/assets/gallery/food-distribution.jpg";
+import treePlanting from "@/assets/gallery/tree-planting.jpg";
+import foodCollection from "@/assets/gallery/food-collection.jpg";
+import communitySupport from "@/assets/gallery/community-support.jpg";
+import donations2 from "@/assets/gallery/donations-2.jpg";
 
 const Gallery = () => {
-  // Placeholder para imagens futuras
-  const placeholderImages = Array(6).fill(null);
+  const galleryImages = [
+    { src: donations1, alt: "Doações para comunidade" },
+    { src: foodDistribution, alt: "Distribuição de alimentos" },
+    { src: treePlanting, alt: "Plantio de árvores" },
+    { src: foodCollection, alt: "Coleta de alimentos" },
+    { src: communitySupport, alt: "Apoio comunitário" },
+    { src: donations2, alt: "Doações solidárias" }
+  ];
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -25,48 +37,19 @@ const Gallery = () => {
       {/* Gallery Grid */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <p className="text-lg text-muted-foreground">
-              Em breve, você poderá visualizar aqui todas as fotos das nossas atividades, eventos e conquistas.
-            </p>
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {placeholderImages.map((_, index) => (
+            {galleryImages.map((image, index) => (
               <Card 
                 key={index} 
-                className="aspect-video bg-muted flex items-center justify-center hover:border-primary transition-colors cursor-pointer overflow-hidden"
+                className="aspect-video overflow-hidden hover:border-primary transition-all duration-300 hover:scale-105 cursor-pointer group"
               >
-                <div className="text-center p-6">
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg
-                      className="w-8 h-8 text-primary"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                  </div>
-                  <p className="text-sm text-muted-foreground">Imagem em breve</p>
-                </div>
+                <img 
+                  src={image.src} 
+                  alt={image.alt}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
               </Card>
             ))}
-          </div>
-
-          <div className="max-w-4xl mx-auto mt-16 bg-primary/5 rounded-lg p-8 text-center">
-            <h2 className="text-2xl font-bold mb-4">Galeria em Construção</h2>
-            <p className="text-muted-foreground">
-              Estamos organizando nosso acervo fotográfico. Em breve, você poderá acompanhar através desta 
-              galeria todas as atividades, eventos e momentos especiais do Instituto Emanuel Rei Davi. 
-              Volte em breve para conferir as novidades!
-            </p>
           </div>
         </div>
       </section>
