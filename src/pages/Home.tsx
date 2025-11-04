@@ -55,7 +55,7 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
-            <Button size="lg" variant="outline" asChild>
+            <Button size="lg" variant="outlineSecondary" asChild>
               <a href="/contato">Entre em contato</a>
             </Button>
           </div>
