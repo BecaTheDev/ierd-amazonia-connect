@@ -27,16 +27,13 @@ const About = () => {
             <div className="prose prose-lg max-w-none mb-16">
               <h2 className="text-3xl font-bold mb-6">Quem Somos</h2>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                O Instituto Emanuel Rei Davi (IERD) é uma instituição sem fins lucrativos fundada com o 
-                propósito de transformar vidas e comunidades no estado do Amazonas. Nosso compromisso é 
-                prestar assistência a famílias em situação de vulnerabilidade econômica e social, oferecendo 
-                oportunidades de desenvolvimento pessoal e profissional.
+                O Instituto Emanuel Rei Davi (IERD) é uma organização sem fins lucrativos dedicada a promover a dignidade humana e a transformação social. Atuamos na assistência a famílias em situação de vulnerabilidade, oferecendo apoio básico, formação e oportunidades que fortalecem a esperança e a autonomia.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-6">
+                Mais do que oferecer ajuda, acreditamos em formar caminhos duradouros. Por isso, realizamos ações educativas e sociais voltadas a crianças, jovens e adultos, estimulando o aprendizado, a criatividade e o compromisso com o bem comum.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Acreditamos que através da educação, capacitação profissional e atividades de geração de 
-                renda, é possível promover mudanças significativas e duradouras na vida das pessoas. Nosso 
-                trabalho abrange diversas áreas, desde cursos profissionalizantes até atividades agrícolas 
-                sustentáveis, sempre com foco no fortalecimento da autonomia e da dignidade humana.
+                Nossa atuação nasce da fé e do desejo de ver comunidades mais justas e solidárias. Cada projeto é movido pelo propósito de transformar realidades através da educação, do trabalho e do amor ao próximo.
               </p>
             </div>
 
@@ -85,7 +82,7 @@ const About = () => {
                     <li>• Respeito</li>
                     <li>• Transparência</li>
                     <li>• Comprometimento</li>
-                    <li>• Sustentabilidade</li>
+                    <li>• Criatividade</li>
                   </ul>
                 </CardContent>
               </Card>

@@ -43,12 +43,10 @@ const Home = () => {
         />
         <div className="relative z-20 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 max-w-4xl mx-auto">
-            Transformando vidas através da{" "}
-            <span className="text-primary">assistência social</span> e{" "}
-            <span className="text-secondary">educação</span>
+            Pequenos gestos que mudam grandes histórias
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Apoiando famílias em vulnerabilidade social no Amazonas com cursos profissionalizantes e atividades de geração de renda.
+            Iluminando vidas com educação e solidariedade a serviço da transformação social.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild>
