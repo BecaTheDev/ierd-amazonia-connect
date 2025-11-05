@@ -20,14 +20,14 @@ const Services = () => {
     },
     {
       icon: <Leaf className="h-10 w-10" />,
-      title: "Atividades Agropecuárias",
-      description: "Produção sustentável e geração de renda através da agricultura",
+      title: "Sustentabilidade e Empreendedorismo",
+      description: "Fomento ao empreendedorismo sustentável e geração de renda",
       items: [
-        "Agricultura familiar e policultura",
-        "Piscicultura e aquicultura",
-        "Horticultura orgânica",
-        "Apicultura e produção de mel",
-        "Criação de animais de pequeno porte",
+        "Capacitação em empreendedorismo social",
+        "Desenvolvimento de negócios sustentáveis",
+        "Economia criativa e inovação",
+        "Gestão financeira e administrativa",
+        "Práticas sustentáveis e responsabilidade ambiental",
       ],
     },
     {
@@ -35,7 +35,7 @@ const Services = () => {
       title: "Assistência Social",
       description: "Suporte integral às famílias em vulnerabilidade social",
       items: [
-        "Acompanhamento familiar",
+        "Cadastro de famílias",
         "Orientação jurídica e social",
         "Apoio psicológico",
         "Distribuição de cestas básicas",

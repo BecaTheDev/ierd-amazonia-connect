@@ -14,8 +14,8 @@ const Home = () => {
     },
     {
       icon: <Sprout className="h-8 w-8" />,
-      title: "Agricultura e Produção",
-      description: "Agricultura, piscicultura, horticultura, apicultura e criação de animais para geração de renda.",
+      title: "Sustentabilidade e Empreendedorismo",
+      description: "Fomento ao empreendedorismo sustentável e práticas de responsabilidade ambiental para geração de renda.",
     },
     {
       icon: <Heart className="h-8 w-8" />,
