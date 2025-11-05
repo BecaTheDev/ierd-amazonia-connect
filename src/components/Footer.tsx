@@ -48,7 +48,10 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-2">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">Amazonas, Brasil</span>
+                <span className="text-muted-foreground">
+                  Rua Porto Carvalho, 289 - Conj. Ajuricaba - Alvorada<br />
+                  Manaus/AM - CEP 69046-310
+                </span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />

@@ -42,11 +42,9 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Amazonas<br />
-                    Brasil
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-4">
-                    Endereço completo será disponibilizado em breve.
+                    Rua Porto Carvalho, 289<br />
+                    Conj. Ajuricaba - Alvorada<br />
+                    Manaus/AM - CEP 69046-310
                   </p>
                 </CardContent>
               </Card>
