@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import heroImage from "@/assets/hero-field.jpg";
+import heroImage from "@/assets/hero-amazon-forest.jpg";
 
 const Home = () => {
   const services = [
@@ -38,7 +38,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60 z-10" />
         <img
           src={heroImage}
-          alt="Comunidade do Instituto Emanuel Rei Davi"
+          alt="Floresta Amazônica - Instituto Emanuel Rei Davi no Amazonas"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="relative z-20 container mx-auto px-4 text-center">
