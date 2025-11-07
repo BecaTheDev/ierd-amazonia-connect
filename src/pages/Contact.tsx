@@ -41,11 +41,16 @@ const Contact = () => {
                   <CardDescription>Nossa sede no Amazonas</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-muted-foreground">
-                    Rua Porto Carvalho, 289<br />
+                  <a 
+                    href="https://maps.app.goo.gl/UKqcGWRhNuz5BVCS6" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-primary hover:underline inline-block"
+                  >
+                    R. A 29 (Porto Carvalho), 289<br />
                     Conj. Ajuricaba - Alvorada<br />
                     Manaus/AM - CEP 69046-310
-                  </p>
+                  </a>
                 </CardContent>
               </Card>
 
