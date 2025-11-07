@@ -59,13 +59,13 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <a 
-                    href="mailto:jorgealvess_@hotmail.com" 
+                    href="mailto:contato@ierd.org.br" 
                     className="text-primary hover:underline"
                   >
-                    jorgealvess_@hotmail.com
+                    contato@ierd.org.br
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Contato provisório. Em breve teremos canais oficiais.
+                    Respondemos em até 48 horas úteis.
                   </p>
                 </CardContent>
               </Card>
@@ -80,13 +80,13 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <a 
-                    href="tel:+5592984574884" 
+                    href="tel:+5592984514884" 
                     className="text-primary hover:underline"
                   >
-                    (92) 98457-4884
+                    (92) 98451-4884
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
-                    Contato provisório. Em breve teremos número oficial.
+                    Disponível em horário comercial.
                   </p>
                 </CardContent>
               </Card>
