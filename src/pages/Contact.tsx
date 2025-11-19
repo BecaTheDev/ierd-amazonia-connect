@@ -85,10 +85,10 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <a 
-                    href="tel:+5592934406060" 
+                    href="tel:+5592993440606" 
                     className="text-primary hover:underline"
                   >
-                    +55 92 9344-0606
+                    +55 92 99344-0606
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
                     Disponível em horário comercial.
