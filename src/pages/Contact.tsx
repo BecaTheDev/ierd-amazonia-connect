@@ -88,7 +88,7 @@ const Contact = () => {
                     href="tel:+5592993440606" 
                     className="text-primary hover:underline"
                   >
-                    +55 92 99344-0606
+                    (92) 99344-0606
                   </a>
                   <p className="text-sm text-muted-foreground mt-4">
                     Disponível em horário comercial.
