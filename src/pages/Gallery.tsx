@@ -1,24 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Card } from "@/components/ui/card";
-import donations1 from "@/assets/gallery/donations-1.jpg";
-import foodDistribution from "@/assets/gallery/food-distribution.jpg";
-import treePlanting from "@/assets/gallery/tree-planting.jpg";
-import foodCollection from "@/assets/gallery/food-collection.jpg";
-import communitySupport from "@/assets/gallery/community-support.jpg";
-import donations2 from "@/assets/gallery/donations-2.jpg";
-import heroImage from "@/assets/gallery/donations-1.jpg";
+import heroImage from "@/assets/hero-ierd.jpg";
 
 const Gallery = () => {
-  const galleryImages = [
-    { src: donations1, alt: "Doações para comunidade" },
-    { src: foodDistribution, alt: "Distribuição de alimentos" },
-    { src: treePlanting, alt: "Plantio de árvores" },
-    { src: foodCollection, alt: "Coleta de alimentos" },
-    { src: communitySupport, alt: "Apoio comunitário" },
-    { src: donations2, alt: "Doações solidárias" }
-  ];
-
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
@@ -41,22 +25,17 @@ const Gallery = () => {
         </div>
       </section>
 
-      {/* Gallery Grid */}
+      {/* Coming Soon Message */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {galleryImages.map((image, index) => (
-              <Card 
-                key={index} 
-                className="aspect-video overflow-hidden hover:border-primary transition-all duration-300 hover:scale-105 cursor-pointer group"
-              >
-                <img 
-                  src={image.src} 
-                  alt={image.alt}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-              </Card>
-            ))}
+          <div className="max-w-2xl mx-auto text-center">
+            <div className="bg-muted rounded-lg p-12">
+              <h2 className="text-2xl font-bold mb-4">Galeria em Construção</h2>
+              <p className="text-muted-foreground">
+                Em breve, compartilharemos aqui fotos das nossas atividades e momentos especiais 
+                do trabalho realizado pelo Instituto Emanuel Rei Davi junto às comunidades do Amazonas.
+              </p>
+            </div>
           </div>
         </div>
       </section>
